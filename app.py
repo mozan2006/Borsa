@@ -45,7 +45,7 @@ def sifre_kontrol():
                     try:
                         dogru_sifre = st.secrets["sistem_sifresi"]
                     except:
-                        dogru_sifre = "admin123"
+                        dogru_sifre = "mozan@2006"
                         
                     if girilen_sifre == dogru_sifre:
                         st.session_state["giris_basarili"] = True
